@@ -1,0 +1,32 @@
+body{
+
+    margin: 0;
+    font-family: sans-serif;
+
+}
+h1{
+    color: coral;
+    text-align: center;
+}
+.cookies.active{
+    bottom: 0%;
+
+}
+.cookies{
+    background-color:rgba(0,0,0,0.8);
+    position: fixed;
+    padding: 20px;
+    width: 100%;
+    bottom: -100%;
+}
+.cookies p{
+    font-size: 20px;
+    color: antiquewhite;
+
+}
+.btn{
+    background-color: red;
+    color: antiquewhite;
+    padding: 10px;
+    margin: 20px;
+}

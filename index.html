@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>frontend pagee</h1>
+   
+        
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur harum eveniet nesciunt ex unde! Facilis, fuga saepe.
+     Perferendis nostrum corporis ipsam eos optio recusandae. Quia ducimus libero dolores rem. Dignissimos?
+    </p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+         Saepe enim minima optio harum nemo nam adipisci repudiandae ratione dolorum sapiente corrupti eum,
+          rem sequi! Vel ullam porro minima et saepe. Beatae, autem illo labore similique voluptate,
+         aperiam accusantium adipisci debitis tempora id sequi architecto nihil optio quia.
+          Impedit, animi vitae.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sunt impedit hic,
+             voluptate consequatur, similique nobis unde sit eligendi et distinctio officia odit assumenda expedita tempora. 
+             Excepturi commodi sapiente earum velit tempore,
+              magnam doloremque quam eius id! Praesentium repellendus iure tempore ea neque recusandae, 
+              dolorem optio obcaecati qui nam dolores impedit amet. Ex in iure tempore quasi assumenda saepe 
+              consequatur repudiandae officia nemo ipsum? Exercitationem perferendis laboriosam modi harum deleniti tempora 
+              blanditiis! Id facilis fugit dolorum perferendis odio ab vel obcaecati. Eaque aut possimus,
+             ipsam, at expedita quia obcaecati cum sint ad deleniti debitis hic. 
+             Harum repellat delectus iusto veniam.</p>
+
+             <div class="cookies">
+    
+        <p>i am agree with the terms and conditions to my data for the company refernce </p>
+        <button class="btn">accept</button>
+    </div>
+    
+</body>
+<script>
+    var cookies=document.querySelector(".cookies");
+    var btn=document.querySelector(".btn");
+
+    
+    btn.addEventListener('click',()=>{
+        //console.log("helloworld")
+        cookies.classList.remove('active');
+        localStorage.setItem("frontend page","true")
+    });
+    setTimeout(()=>{
+        if(!localStorage.getItem("frontend page"))
+            cookies.classList.add('active');
+},2000);
+    
+    
+    
+    
+    
+    
+    
+
+</script>
+
+</html>
